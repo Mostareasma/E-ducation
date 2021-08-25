@@ -1,0 +1,116 @@
+#modal-button{
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    line-height: 40px;
+    padding: 0 30px;
+}
+@media (max-width: 1190px){
+    #modal-button{
+        margin: auto;
+    }
+}
+#modal--body{
+    background-color: #E8F8F5;
+}
+#modal--content {
+    width: 150%;
+}
+
+
+.title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #F2F4F4;
+}
+
+.modal-title{
+        font-size: 30px;
+        font-weight: 550;
+        text-align: left;
+        color: #515A5A;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+
+@media (max-width: 1015px){
+    #modal--content {
+        width: 100%;
+    }
+    }
+@media (max-width: 767px) {
+    .modal-title {
+      padding: 0 15px;
+    }
+    #modal--content {
+        width: 100%;
+    }
+    #img1, #img2{
+        width: 30px;
+        height: 30px;
+    }
+    #modal-button{
+        font-size: 100%;
+    }
+    .modal-title{
+        font-size: 100%;
+    }
+}
+
+
+#img1, .fa-info{
+    margin-right: 10px;
+}
+#img2{
+    margin-right: 5px;
+}
+.btn-secondary{
+    background-color: #515A5A;
+    border-color: #515A5A;
+}
+
+.btn-primary{
+    background-color: #117864;
+    border-color: #117864;
+}
+
+.btn-primary:hover{
+    background-color: #76D7C4 ;
+    border-color: #76D7C4;
+    color: black;
+}
+
+.btn-secondary:hover{
+    background-color: #99A3A4 ;
+    border-color: #99A3A4;
+    color: black;
+}
+
+.btn-secondary:hover{
+    color: black;
+}
+
+.cours-rows{
+    margin-top: 10px;
+    /*background-color: red;*/
+    width: auto;
+    height: auto;
+}
+
+
+#menu:hover{
+    text-decoration: none;
+    color: white;
+}
+
+hr:not([size]) {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+#nav-items{
+    margin-left: 17%;
+}
+

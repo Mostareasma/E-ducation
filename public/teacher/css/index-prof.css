@@ -1,0 +1,34 @@
+.bg-basecolor-8{
+    background-color: var(--basecolor-gradient-1);
+}
+.dropdown-menu {
+    background-color: #A3E4D7;
+}
+
+a{
+    color: black;
+}
+.container{
+    background-color: white ;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1300px;
+}
+ 
+#classe{
+    background: url('teacher/img/cours.png') center no-repeat;
+}
+
+#cours{
+    background: url('../teacher/img/cours1.png') center no-repeat;
+}
+
+#outils{
+    background: url('../teacher/img/cours2.png') center no-repeat;
+}
+
+#tools{
+    font-size: 150%;
+    margin-right: 4px;
+}

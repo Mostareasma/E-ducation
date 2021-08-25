@@ -1,0 +1,228 @@
+/********************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+/********************************************************/
+
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+:root {
+    --blue: #007bff;
+    --indigo: #efd2ff;
+    --purple: #e28cf8;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #fcd667;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --basecolor: #0c738d;
+    --basecolor-hover: #17758d79;
+    --basecolor-gradient-1: #5d9eb894;
+    --basecolor-gradient-2: #acb391;
+    --basecolor-gradient-3: #022029;
+    --basecolor-gradient-4: #5da89b;
+    --basecolor-gradient-5: #aed8d79a;
+    --basecolor-gradient-6: #283747;
+}
+
+html,
+body,
+.body {
+    font-family: calibri !important;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    height: 100%;
+    color: #776b75;
+}
+
+/***************************************************/
+.bg-fiche {
+    background-color: var(--basecolor-gradient-6) !important;
+}
+
+.bg-base-3:hover {
+    background-color: var(--basecolor-gradient-4);
+}
+
+.bg-fiche:hover {
+    background-color: var(--basecolor-gradient-4) !important;
+}
+
+.bg-base-2 {
+    background-color: var(--basecolor-gradient-2);
+}
+
+.bg-base-1 {
+    background-color: var(--basecolor-gradient-1);
+}
+
+.bg-base-3 {
+    background-color: var(--basecolor-gradient-3);
+}
+
+.bg-base-4 {
+    background-color: var(--basecolor-gradient-4);
+}
+
+.bg-base-5 {
+    background-color: var(--basecolor-gradient-5);
+}
+/***************************************************/
+.profilpic{
+    padding: 0px !important;
+}
+#fiche:hover{
+   color: red;
+}
+.fs-7 {
+    font-size: 15px;
+}
+
+.bg-base {
+    background: var(--basecolor);
+}
+
+.navbar-title {
+    font-family: "Roboto Mono", monospace;
+}
+
+.btn-base {
+    background-color: var(--basecolor);
+}
+
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    text-decoration: underline;
+    color: var(--basecolor-gradient-1);
+}
+
+.nav-link-title {
+    font-family: "Open Sans", sans-serif;
+}
+.nav-link:hover {
+    text-decoration: none;
+    color: #293a96 !important;
+    font-weight: bold;
+}
+
+.navbar-collapse .nav-link {
+    color: var(--light);
+}
+
+.navbar-collapse .nav-link:hover {
+    color: var(--light);
+}
+
+.width-50 {
+    width: 50px !important;
+    height: auto !important;
+}
+
+.mr-0 {
+    margin-right: 0 !important;
+}
+
+.w-mc {
+    width: max-content !important;
+    height: auto;
+}
+
+.navbar-nav {
+    margin: 0 0 0 auto;
+}
+
+.navbar-grad {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255),
+        rgb(255, 255, 255, 0)
+    );
+}
+
+.navbar-grad a,
+.navbar-grad i {
+    color: var(--dark);
+    font-size: 13px;
+}
+
+.gamme .navbar-brand {
+    height: 30px !important;
+}
+.gamme .navbar-brand img {
+    margin-top: 3px;
+}
+.gamme img {
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.dropdown-btn {
+    width: max-content;
+    min-width: 210px;
+    text-align: left !important;
+}
+
+/*------------------- header end -------------------*/
+
+.w-c-title {
+    margin: auto;
+    text-align: center;
+    width: max-content;
+    border-bottom: 1px solid var(--secondary);
+    font-size: 150%;
+}
+
+/*------------------- Catégorie populaire -------------------*/
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+.w_max img {
+    width: 100% !important;
+    max-width: 444px;
+    height: auto !important;
+}
+
+.dropstart .dropdown-toggle::before {
+    content: none;
+}
+/*------------------- footer -------------------*/
+
+@media only screen and (max-width: 700px) {
+    .gamme .navbar-brand p {
+        visibility: hidden;
+        width: 0 !important;
+    }
+    .gamme .navbar-brand img {
+        margin-top: 0;
+    }
+
+    .gamme {
+        width: 25px !important;
+    }
+}
+
+
+
+  
